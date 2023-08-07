@@ -1,0 +1,190 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1bcae9;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .movies-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .movie {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .movie-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .review-button {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+  }
+  
+  .search-form {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .search-input {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .search-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .logout-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .movie-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .movie-description {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .reviews-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .review-rating {
+    font-weight: bold;
+  }
+  
+  .review-user {
+    color: #777;
+  }
+  
+  .review-text {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .back-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    text-decoration: none;
+  }
+  
+  .submit-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Login and Register Pages */
+  .login-container,
+  .register-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-title,
+  .register-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .form-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .success-message {
+    color: green;
+    margin-top: 5px;
+  }
