@@ -2,7 +2,6 @@
 
 Welcome to the Entertainment Review platform! This is an online movie review platform where users can register, add new movies, and share their movie reviews with others. The website is built using HTML, CSS, JS, and PHP technologies.
 
-![Entertainment Review](https://entertainment-review.fast-page.org/)
 
 ## Table of Contents
 
