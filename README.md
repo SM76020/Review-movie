@@ -18,10 +18,6 @@ Welcome to the Entertainment Review platform! This is an online movie review pla
 
 The Entertainment Review platform is designed to provide movie enthusiasts with a platform to discover and review movies. Users can sign up, add new movies to the database, and share their thoughts and ratings on movies they have watched. This platform aims to create a community where movie lovers can connect, discuss, and explore various movies.
 
-## Website Link
-
-You can access the Entertainment Review platform using the following link: [Entertainment Review](https://entertainment-review.fast-page.org/)
-
 ## Features
 
 - User Registration: Users can register and create an account to access all the features of the platform.
